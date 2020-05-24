@@ -9,6 +9,9 @@ public class Main {
 	    StockItem temp = new StockItem("bread", 0.86, 100);
         stockList.addStock(temp);
 
+        // this is first commit
+        
+        
         temp = new StockItem("cake", 1.10, 7);
         stockList.addStock(temp);
 
