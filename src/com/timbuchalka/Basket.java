@@ -25,6 +25,17 @@ public class Basket {
         }
         return 0;
     }
+    
+    public static boolean checkIfBasketEmpty(StockItem it)
+    {
+    	int quantity = it.availableQuantity();
+    	if(quantity > 0 )
+    	{
+    		return false;
+    	}
+    	else 
+    		return true;
+    }
 
     public int removeFromBasket(StockItem item, int quantity) {
         if((item != null) && (quantity > 0)) {
