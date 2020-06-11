@@ -14,6 +14,7 @@ public class Basket {
     public Basket(String name) {
         this.name = name;
         this.list = new TreeMap<>();
+        System.out.println("print this");
     }
 
     public int addToBasket(StockItem item, int quantity) {
